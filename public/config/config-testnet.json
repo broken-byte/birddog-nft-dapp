@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0xcD4fc930333aD11e138453e5c87b48B5A9C4dc2e",
+  "SCAN_LINK": "https://sepolia.basescan.org/address/0xcd4fc930333ad11e138453e5c87b48b5a9c4dc2e",
+  "NETWORK": {
+    "NAME": "Base: Sepolia",
+    "SYMBOL": "ETH",
+    "ID": 84532
+  },
+  "NFT_NAME": "Birddog: The NFT",
+  "SYMBOL": "BDOG",
+  "MAX_SUPPLY": 3000,
+  "WEI_COST": 75000000000000000,
+  "DISPLAY_COST": 0.075,
+  "GAS_LIMIT": 30000000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/birddog-the-nft-8",
+  "SHOW_BACKGROUND": true
+}

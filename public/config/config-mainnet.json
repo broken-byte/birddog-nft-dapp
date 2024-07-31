@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "",
+  "SCAN_LINK": "",
+  "NETWORK": {
+    "NAME": "Base",
+    "SYMBOL": "ETH",
+    "ID": 84532
+  },
+  "NFT_NAME": "Birddog: The NFT",
+  "SYMBOL": "BDOG",
+  "MAX_SUPPLY": 3000,
+  "WEI_COST": 75000000000000000,
+  "DISPLAY_COST": 0.075,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "",
+  "SHOW_BACKGROUND": true
+}

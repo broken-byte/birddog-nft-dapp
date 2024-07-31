@@ -3,6 +3,7 @@ import Web3EthContract from "web3-eth-contract";
 import Web3 from "web3";
 // log
 import { fetchData } from "../data/dataActions";
+import { Constants } from "../../../constants.js";
 
 const connectRequest = () => {
   return {
@@ -34,14 +35,14 @@ const updateAccountRequest = (payload) => {
 export const connect = () => {
   return async (dispatch) => {
     dispatch(connectRequest());
-    const abiResponse = await fetch("/config/abi.json", {
+    const abiResponse = await fetch(Constants.abiFilePath, {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
       },
     });
     const abi = await abiResponse.json();
-    const configResponse = await fetch("/config/config.json", {
+    const configResponse = await fetch(Constants.configFilePath, {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",

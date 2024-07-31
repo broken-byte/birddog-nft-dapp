@@ -4,6 +4,7 @@ import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
+import { Constants } from "../constants.js";
 
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
@@ -175,7 +176,7 @@ function App() {
   };
 
   const getConfig = async () => {
-    const configResponse = await fetch("/config/config.json", {
+    const configResponse = await fetch(Constants.configFilePath, {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
