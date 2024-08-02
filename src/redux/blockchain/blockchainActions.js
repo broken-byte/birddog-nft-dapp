@@ -1,9 +1,9 @@
 // constants
 import Web3EthContract from "web3-eth-contract";
 import Web3 from "web3";
+import Constants from "../../constants";
 // log
 import { fetchData } from "../data/dataActions";
-import { Constants } from "../../../constants.js";
 
 const connectRequest = () => {
   return {
@@ -85,7 +85,11 @@ export const connect = () => {
           dispatch(connectFailed(`Change network to ${CONFIG.NETWORK.NAME}.`));
         }
       } catch (err) {
-        dispatch(connectFailed("Something went wrong."));
+        dispatch(
+          connectFailed(
+            "Something went wrong while connecting to the blockchain."
+          )
+        );
       }
     } else {
       dispatch(connectFailed("Install Metamask."));
