@@ -10,9 +10,9 @@
   "SYMBOL": "BDOG",
   "MAX_SUPPLY": 3000,
   "WEI_COST": 75000000000000000,
-  "DISPLAY_COST": 0.075,
+  "DISPLAY_COST": 0.04,
   "GAS_LIMIT": 30000000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/birddog-the-nft-8",
-  "SHOW_BACKGROUND": true
+  "SHOW_BACKGROUND": false
 }
